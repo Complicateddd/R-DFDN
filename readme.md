@@ -6,7 +6,7 @@ Main contributer：Zechen. Zhao 、Shijie.Li 、Tian.Tian
 
 Our model is more robust and stable compared with Corr-Prediction：
 
-![model](G:\华为AI\model.jpg)
+![Model](https://github.com/Complicateddd/R-DFDN/tree/master/temp/model.jpg)
 
 ## Usage && Implement
 
@@ -76,7 +76,7 @@ python train_RDFDN.py --use tf_board True --epochs 300
 
 See the result in tensorboardX:
 
-![tensorboard](G:\华为AI\tensorboard.png)
+![tensorboard](https://github.com/Complicateddd/R-DFDN/tree/master/temp/tensorboard.png)
 
 #### 5、Run ADDA \ RevGrad \ WDGRL:
 
