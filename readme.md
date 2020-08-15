@@ -4,7 +4,7 @@ This is a pytorch repository of method ‘A more robust domain feature decouplin
 
 Our model is more robust and stable compared with Corr-Prediction：
 
-![huawei](F:\anzhuang\huawei.jpg)
+![model](G:\华为AI\model.jpg)
 
 ## Usage && Implement
 
@@ -74,4 +74,4 @@ python train_RDFDN.py --use tf_board True --epochs 300
 
 See the result in tensorboardX:
 
-![QQ图片20200815123926](G:\华为AI\QQ图片20200815123926.png)
+![tensorboard](G:\华为AI\tensorboard.png)
