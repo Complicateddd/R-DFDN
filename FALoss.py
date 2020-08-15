@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug  4 19:06:38 2020
-
-@author: 三岁嗷嗷帅
-"""
-
 import torch
 import torch.nn as nn
 
