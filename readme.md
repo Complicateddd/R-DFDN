@@ -2,6 +2,8 @@
 
 This is a pytorch repository of method ‘A more robust domain feature decoupling network ’(R-DFDN), which is heavily followed by https://github.com/salesforce/corr_based_prediction。
 
+Main contributer：Zechen. Zhao 、Shijie.Li 、Tian.Tian
+
 Our model is more robust and stable compared with Corr-Prediction：
 
 ![model](G:\华为AI\model.jpg)
@@ -75,3 +77,7 @@ python train_RDFDN.py --use tf_board True --epochs 300
 See the result in tensorboardX:
 
 ![tensorboard](G:\华为AI\tensorboard.png)
+
+#### 5、Run ADDA \ RevGrad \ WDGRL:
+
+The same as a implement in https://github.com/jvanvugt/pytorch-domain-adaptation
