@@ -81,3 +81,19 @@ See the result in tensorboardX:
 #### 5、Run ADDA \ RevGrad \ WDGRL:
 
 The same as a implement in https://github.com/jvanvugt/pytorch-domain-adaptation
+
+### Some result:
+
+Evaluation on best model forom c-mnist
+
+|                 | CMNIST(B) | MNIST  | MNIST-M | SVHN   | Absolute Gain |
+| --------------- | --------- | ------ | ------- | ------ | ------------- |
+| Corr-Prediction | 96.88     | 85.94  | 79.69   | 43.75  | 0             |
+| MLE             | 11.72     | 7.81   | 8.59    | 11.72  | \             |
+| ADABN           | 12.5      | 16.41  | 12.5    | 9.38   | \             |
+| CLP             | 22.66     | 7.81   | 9.38    | 13.28  | \             |
+| PGD             | 18.75     | 13.28  | 8.59    | 7.03   | \             |
+| VIB             | 16.41     | 13.28  | 11.72   | 11.72  | \             |
+| R-DFDN(ours)    | 96.09     | 97.65  | 85.16   | 60.94  | \             |
+|                 | -0.78     | +11.71 | +5.47   | +17.19 | +33.58        |
+
